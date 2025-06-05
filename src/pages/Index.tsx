@@ -1,7 +1,7 @@
-
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   const scrollToSection = (id: string) => {
@@ -322,7 +322,12 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-10">
         <div className="container mx-auto px-6 text-center">
-          <p>&copy; 2025 Poquillo. All rights reserved.</p>
+          <p className="mb-4">&copy; 2025 Poquillo. All rights reserved.</p>
+          <div className="text-sm">
+            <Link to="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </footer>
     </div>
