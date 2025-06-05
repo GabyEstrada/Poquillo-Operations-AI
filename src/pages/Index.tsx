@@ -1,4 +1,3 @@
-
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -169,17 +168,17 @@ const Index = () => {
           <div className="max-w-3xl mx-auto space-y-8">
             <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-indigo-200">
               <CardHeader className="p-0 pb-6">
-                <CardTitle className="text-2xl font-bold mb-4">90-Minute Deep Dive Consultation</CardTitle>
+                <CardTitle className="text-2xl font-bold mb-4">The Deep Dive</CardTitle>
                 <div className="text-lg font-semibold text-indigo-600 mb-4">
                   The starting point for your transformation
                 </div>
                 <p className="text-gray-600 mb-6">
-                  Invest in a comprehensive consultation where we'll analyze your business, identify your biggest bottlenecks, and create a roadmap for your specific situation. This is where everything begins.
+                  Invest in a comprehensive 120-minute consultation rooted in our FLOW Method™ where we'll analyze your business, identify your biggest bottlenecks, and create a roadmap for your specific situation. This is where everything begins.
                 </p>
                 <div className="text-3xl font-bold text-green-600 mb-4">
                   $3,000
                   <span className="text-lg font-normal text-gray-600 ml-2">
-                    (90-minute session)
+                    (120-minute session)
                   </span>
                 </div>
               </CardHeader>
