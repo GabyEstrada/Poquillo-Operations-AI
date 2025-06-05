@@ -1,4 +1,6 @@
 
+/// <reference lib="dom" />
+
 // Security configuration and utilities
 export const securityHeaders = {
   'Content-Security-Policy': 
