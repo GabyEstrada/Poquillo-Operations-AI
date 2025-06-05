@@ -1,4 +1,3 @@
-
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -168,6 +167,7 @@ const Index = () => {
           </h2>
           
           <div className="max-w-3xl mx-auto space-y-8">
+            {/* The Deep Dive card */}
             <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-indigo-200">
               <CardHeader className="p-0 pb-6">
                 <CardTitle className="text-2xl font-bold mb-4">The Deep Dive</CardTitle>
@@ -194,6 +194,7 @@ const Index = () => {
               </CardContent>
             </Card>
 
+            {/* The Breakthrough card */}
             <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardHeader className="p-0 pb-6">
                 <CardTitle className="text-2xl font-bold mb-4">The Breakthrough</CardTitle>
@@ -217,6 +218,7 @@ const Index = () => {
               </CardContent>
             </Card>
 
+            {/* The Partnership card */}
             <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardHeader className="p-0 pb-6">
                 <CardTitle className="text-2xl font-bold mb-4">The Partnership</CardTitle>
@@ -224,7 +226,7 @@ const Index = () => {
                   Want dedicated guidance every step of the way?
                 </div>
                 <p className="text-gray-600 mb-6">
-                  In The Partnership, you get expert guidance to implement everything we discover in The Breakthrough. We'll be there every step of the way as you transform your operations and reclaim your time.
+                  In The Partnership, you get expert guidance to implement everything we discover in The Breakthrough. We'll be there every step of the way as you transform your operations, integrate smart AI solutions, and gain the confidence to run your systems independently—even with a lean team.
                 </p>
                 <div className="bg-blue-50 text-indigo-700 p-4 rounded-lg font-medium">
                   You get The Breakthrough included AND ongoing support to ensure everything actually gets implemented and works.
@@ -240,6 +242,7 @@ const Index = () => {
               </CardContent>
             </Card>
 
+            {/* The Community card */}
             <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
               <CardContent className="p-0">
                 <h3 className="text-2xl font-bold mb-4">The Community</h3>
