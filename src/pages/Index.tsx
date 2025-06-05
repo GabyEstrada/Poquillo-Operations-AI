@@ -312,7 +312,7 @@ const Index = () => {
             Schedule your 90-minute consultation to get started
           </p>
           <Button className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2">
-            Schedule Your Consultation
+            Request to Work Together
             <ArrowRight className="w-5 h-5" />
           </Button>
         </div>
