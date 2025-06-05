@@ -323,9 +323,13 @@ const Index = () => {
       <footer className="bg-gray-900 text-white py-10">
         <div className="container mx-auto px-6 text-center">
           <p className="mb-4">&copy; 2025 Poquillo. All rights reserved.</p>
-          <div className="text-sm">
+          <div className="text-sm space-x-4">
             <Link to="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">
               Privacy Policy
+            </Link>
+            <span className="text-gray-500">•</span>
+            <Link to="/terms-conditions" className="text-gray-300 hover:text-white transition-colors">
+              Terms & Conditions
             </Link>
           </div>
         </div>
