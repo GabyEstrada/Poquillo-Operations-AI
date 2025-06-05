@@ -1,3 +1,4 @@
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -309,7 +310,7 @@ const Index = () => {
             Ready to Scale Without the Chaos?
           </h2>
           <p className="text-xl mb-10 opacity-90">
-            Schedule your 90-minute consultation to get started
+            Schedule your 120-minute consultation to get started
           </p>
           <Button className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2">
             Request to Work Together
