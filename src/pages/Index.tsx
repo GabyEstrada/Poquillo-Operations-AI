@@ -1,5 +1,3 @@
-
-
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -13,6 +11,10 @@ const Index = () => {
     }
   };
 
+  const handleCTAClick = () => {
+    window.open('https://forms.gle/bTDzxaxuSKKtV3EM9', '_blank');
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -22,7 +24,7 @@ const Index = () => {
             Poquillo™
           </div>
           <Button 
-            onClick={() => scrollToSection('apply')}
+            onClick={handleCTAClick}
             className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:-translate-y-1"
           >
             Request to Work Together
@@ -43,7 +45,7 @@ const Index = () => {
             Transform operational chaos into seamless systems in 90 days—without expensive consultants or complicated software.
           </div>
           <Button 
-            onClick={() => scrollToSection('apply')}
+            onClick={handleCTAClick}
             className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2"
           >
             Request to Work Together
@@ -168,7 +170,7 @@ const Index = () => {
             Our Programs
           </h2>
           
-          <div className="max-w-4xl mx-auto space-y-12">
+          <div className="max-w-4xl mx-auto space-y-16">
             {/* The Deep Dive card */}
             <Card className="p-10 shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-indigo-200 bg-white">
               <CardHeader className="p-0 pb-8">
@@ -188,7 +190,7 @@ const Index = () => {
               </CardHeader>
               <CardContent className="p-0">
                 <Button 
-                  onClick={() => scrollToSection('apply')}
+                  onClick={handleCTAClick}
                   className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-4 text-lg rounded-lg transition-all duration-300 hover:-translate-y-1"
                 >
                   Schedule Your Consultation
@@ -212,7 +214,7 @@ const Index = () => {
               </CardHeader>
               <CardContent className="p-0">
                 <Button 
-                  onClick={() => scrollToSection('apply')}
+                  onClick={handleCTAClick}
                   className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-4 text-lg rounded-lg transition-all duration-300 hover:-translate-y-1"
                 >
                   Let's talk goals
@@ -236,7 +238,7 @@ const Index = () => {
               </CardHeader>
               <CardContent className="p-0">
                 <Button 
-                  onClick={() => scrollToSection('apply')}
+                  onClick={handleCTAClick}
                   className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-4 text-lg rounded-lg transition-all duration-300 hover:-translate-y-1"
                 >
                   Let's talk goals
@@ -327,7 +329,10 @@ const Index = () => {
           <p className="text-xl mb-10 opacity-90">
             Apply to work with us and transform your business
           </p>
-          <Button className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2">
+          <Button 
+            onClick={handleCTAClick}
+            className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2"
+          >
             Request to Work Together
             <ArrowRight className="w-5 h-5" />
           </Button>
@@ -354,4 +359,3 @@ const Index = () => {
 };
 
 export default Index;
-
