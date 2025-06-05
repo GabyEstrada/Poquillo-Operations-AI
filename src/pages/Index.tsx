@@ -1,4 +1,3 @@
-
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -31,7 +30,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-indigo-500 to-purple-600 text-white pt-32 pb-24">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-black mb-8 leading-tight" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+          <h1 className="text-4xl md:text-6xl font-black mb-12 leading-tight" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             Scale Without the Chaos
           </h1>
           <div className="text-xl md:text-2xl mb-4 opacity-90 font-medium">
@@ -166,7 +165,7 @@ const Index = () => {
             Our Programs
           </h2>
           
-          <div className="grid lg:grid-cols-2 gap-8 mb-16">
+          <div className="max-w-3xl mx-auto space-y-8">
             <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardHeader className="p-0 pb-6">
                 <CardTitle className="text-2xl font-bold mb-4">The Breakthrough</CardTitle>
@@ -212,30 +211,25 @@ const Index = () => {
                 </Button>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
 
-      {/* Community Section */}
-      <section className="bg-white py-20">
-        <div className="container mx-auto px-6">
-          <Card className="text-center p-8 shadow-lg max-w-2xl mx-auto">
-            <CardContent>
-              <h3 className="text-2xl font-bold mb-4">The Community</h3>
-              <p className="text-lg text-gray-600 mb-6">
-                Stay connected and keep growing with monthly group calls, community access, and continued support.
-              </p>
-              <div className="text-3xl font-bold text-indigo-600 mb-2">
-                $3,000
-                <span className="text-lg font-normal text-gray-600 ml-2">
-                  (3-month program)
-                </span>
-              </div>
-              <p className="text-sm text-gray-500 italic">
-                Available after completing your transformation program
-              </p>
-            </CardContent>
-          </Card>
+            <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+              <CardContent className="p-0">
+                <h3 className="text-2xl font-bold mb-4">The Community</h3>
+                <p className="text-lg text-gray-600 mb-6">
+                  Stay connected and keep growing with monthly group calls, community access, and continued support.
+                </p>
+                <div className="text-3xl font-bold text-indigo-600 mb-2">
+                  $3,000
+                  <span className="text-lg font-normal text-gray-600 ml-2">
+                    (3-month program)
+                  </span>
+                </div>
+                <p className="text-sm text-gray-500 italic">
+                  Available after completing your transformation program
+                </p>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </section>
 
