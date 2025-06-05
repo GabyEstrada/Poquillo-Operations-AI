@@ -1,3 +1,4 @@
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -275,7 +276,7 @@ const Index = () => {
               {
                 number: "2",
                 title: "Deep Dive Consultation",
-                description: "If approved, book your $3,000 consultation. We'll spend 90 minutes diving deep into your operations to identify bottlenecks and opportunities. This session brings clarity, relief, and a plan of action—ideal if you need expert guidance but aren't ready for a full transformation program."
+                description: "If approved, book your $3,000 consultation—120 minutes focused on uncovering bottlenecks and opportunities in your operations. Get clarity, relief, and a clear plan of action."
               },
               {
                 number: "3",
