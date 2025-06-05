@@ -1,3 +1,4 @@
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -158,105 +159,71 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Packages Section */}
+      {/* Programs Section */}
       <section className="bg-gray-50 py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-5xl font-black text-center mb-16" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            Choose Your Transformation
+            Our Programs
           </h2>
           
-          <div className="grid lg:grid-cols-3 gap-8 mb-16">
-            {[
-              {
-                title: "Fix the Bottlenecks",
-                target: "1-3 employees • \"I'm the bottleneck\"",
-                price: "$12,000",
-                promise: "Remove yourself as the bottleneck and multiply your team's capacity in 60 days",
-                features: [
-                  "2-day bottleneck elimination intensive",
-                  "4 Bi-weekly 60-min strategy sessions",
-                  "Delegation-focused AI training & setup",
-                  "Essential systems documentation",
-                  "Founder liberation roadmap",
-                  "Private Slack channel (24hr response)",
-                  "Lifetime access to Poquillo Alumni LinkedIn group"
-                ],
-                featured: false
-              },
-              {
-                title: "Stabilize and Scale",
-                target: "4-8 employees • \"Systems are breaking\"",
-                price: "$12,000",
-                promise: "Stabilize your growth and reclaim 10-15 hours weekly within 6 months",
-                features: [
-                  "3-day growth stabilization intensive",
-                  "Bi-weekly 75-min strategy sessions",
-                  "Growth-focused AI training & implementation",
-                  "Scalable systems documentation",
-                  "Team training materials",
-                  "6 months strategic guidance",
-                  "Private Slack channel (24hr response)",
-                  "Lifetime access to Poquillo Alumni LinkedIn group"
-                ],
-                featured: true
-              },
-              {
-                title: "Freedom to Step Back",
-                target: "9-12 employees • \"I need to step back\"",
-                price: "$35,000",
-                promise: "Transform from operator to CEO while maintaining growth and reclaiming 15+ hours weekly",
-                features: [
-                  "5-day CEO transformation intensive",
-                  "Bi-weekly 90-min executive sessions",
-                  "Complete leadership team development",
-                  "Exclusive AI training & integration",
-                  "Operational independence roadmap",
-                  "6 months transformation guidance",
-                  "Private Slack channel (24hr response)",
-                  "Lifetime access to Poquillo Alumni LinkedIn group"
-                ],
-                featured: false
-              }
-            ].map((pkg, index) => (
-              <Card key={index} className={`relative text-center p-8 shadow-lg hover:shadow-xl transition-all duration-300 ${pkg.featured ? 'border-2 border-indigo-500 scale-105' : ''}`}>
-                {pkg.featured && (
-                  <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-indigo-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
-                    Most Popular
-                  </div>
-                )}
-                <CardHeader className="pb-6">
-                  <CardTitle className="text-2xl font-bold mb-4">{pkg.title}</CardTitle>
-                  <div className="text-gray-600 mb-5">{pkg.target}</div>
-                  <div className="text-4xl font-black text-gray-900 mb-5">{pkg.price}</div>
-                  <div className="bg-blue-50 text-indigo-700 p-4 rounded-lg font-semibold">
-                    {pkg.promise}
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="text-left space-y-2 mb-8">
-                    {pkg.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-start gap-3">
-                        <CheckCircle className="w-4 h-4 text-indigo-500 mt-1 flex-shrink-0" />
-                        <span className="text-sm text-gray-700">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Button 
-                    onClick={() => scrollToSection('apply')}
-                    className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 hover:-translate-y-1"
-                  >
-                    Book Discovery Call
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
+          <div className="grid lg:grid-cols-2 gap-8 mb-16">
+            <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <CardHeader className="p-0 pb-6">
+                <CardTitle className="text-2xl font-bold mb-4">The Breakthrough</CardTitle>
+                <div className="text-lg font-semibold text-indigo-600 mb-4">
+                  Fix your biggest bottlenecks in days, not months
+                </div>
+                <p className="text-gray-600 mb-6">
+                  Whether you have 3 employees or 12, whether you're drowning in daily operations or ready to step back as CEO. This intensive experience will identify and eliminate your biggest operational roadblocks.
+                </p>
+                <div className="bg-blue-50 text-indigo-700 p-4 rounded-lg font-medium">
+                  This is the place to start. The most common response we get is "where was this when I started? It would have saved me soooo much time and soooo much money."
+                </div>
+              </CardHeader>
+              <CardContent className="p-0">
+                <Button 
+                  onClick={() => scrollToSection('apply')}
+                  className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 hover:-translate-y-1"
+                >
+                  Let's talk goals
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <CardHeader className="p-0 pb-6">
+                <CardTitle className="text-2xl font-bold mb-4">The Partnership</CardTitle>
+                <div className="text-lg font-semibold text-indigo-600 mb-4">
+                  Want dedicated guidance every step of the way?
+                </div>
+                <p className="text-gray-600 mb-6">
+                  In The Partnership, you get expert guidance to implement everything we discover in The Breakthrough. We'll be there every step of the way as you transform your operations and reclaim your time.
+                </p>
+                <div className="bg-blue-50 text-indigo-700 p-4 rounded-lg font-medium">
+                  You get The Breakthrough included AND ongoing support to ensure everything actually gets implemented and works.
+                </div>
+              </CardHeader>
+              <CardContent className="p-0">
+                <Button 
+                  onClick={() => scrollToSection('apply')}
+                  className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 hover:-translate-y-1"
+                >
+                  Let's talk goals
+                </Button>
+              </CardContent>
+            </Card>
           </div>
-          
+        </div>
+      </section>
+
+      {/* Community Section */}
+      <section className="bg-white py-20">
+        <div className="container mx-auto px-6">
           <Card className="text-center p-8 shadow-lg max-w-2xl mx-auto">
             <CardContent>
-              <h3 className="text-2xl font-bold mb-4">Ongoing Coaching</h3>
-              <p className="text-lg text-gray-600 mb-5">
-                For graduates seeking continued guidance and accountability
+              <h3 className="text-2xl font-bold mb-4">The Community</h3>
+              <p className="text-lg text-gray-600 mb-6">
+                Stay connected and keep growing with monthly group calls, community access, and continued support.
               </p>
               <div className="text-3xl font-bold text-indigo-600 mb-2">
                 $3,000
@@ -265,7 +232,7 @@ const Index = () => {
                 </span>
               </div>
               <p className="text-sm text-gray-500 italic">
-                Available after completing your transformation package
+                Available after completing your transformation program
               </p>
             </CardContent>
           </Card>
@@ -273,7 +240,7 @@ const Index = () => {
       </section>
 
       {/* Process Section */}
-      <section className="bg-white py-20">
+      <section className="bg-gray-50 py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-5xl font-black text-center mb-16" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             How It Works
