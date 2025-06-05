@@ -1,5 +1,3 @@
-
-
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -228,7 +226,7 @@ const Index = () => {
                   Want dedicated guidance every step of the way?
                 </div>
                 <p className="text-gray-600 mb-6">
-                  In The Partnership, you get expert guidance to implement everything we discover in The Breakthrough. We'll be there every step of the way as you transform your operations, integrate smart AI solutions, and gain the confidence to run your systems independently—even with a lean team.
+                  In The Partnership, you get expert guidance to implement everything we discover in The Deep Dive and full access to everything included in The Breakthrough. We'll be there every step of the way as you transform your operations, integrate smart AI solutions, and gain the confidence to run your systems independently—even with a lean team.
                 </p>
                 <div className="bg-blue-50 text-indigo-700 p-4 rounded-lg font-medium">
                   You get The Breakthrough included AND ongoing support to ensure everything actually gets implemented and works.
@@ -354,4 +352,3 @@ const Index = () => {
 };
 
 export default Index;
-
