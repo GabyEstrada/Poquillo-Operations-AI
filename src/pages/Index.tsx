@@ -1,4 +1,3 @@
-
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -266,7 +265,7 @@ const Index = () => {
           <h2 className="text-3xl md:text-5xl font-black text-center mb-16" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             How It Works
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 number: "1",
@@ -275,21 +274,16 @@ const Index = () => {
               },
               {
                 number: "2",
-                title: "Schedule Your Consultation",
-                description: "If approved, book your $3,000 consultation to analyze your business and create your custom roadmap"
+                title: "Deep Dive Consultation",
+                description: "If approved, book your $3,000 consultation. We'll spend 90 minutes diving deep into your operations to identify bottlenecks and opportunities. This session brings clarity, relief, and a plan of action—ideal if you need expert guidance but aren't ready for a full transformation program."
               },
               {
                 number: "3",
-                title: "Deep Dive Analysis",
-                description: "We'll spend 90 minutes diving deep into your operations to identify bottlenecks and opportunities"
-              },
-              {
-                number: "4",
                 title: "Choose Your Path",
                 description: "Select from The Breakthrough, The Partnership, or ongoing Community support based on your needs"
               },
               {
-                number: "5",
+                number: "4",
                 title: "Transform & Scale",
                 description: "Follow our proven FLOW Method™ with expert guidance to eliminate chaos and reclaim your time"
               }
