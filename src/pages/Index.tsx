@@ -1,3 +1,4 @@
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -202,7 +203,7 @@ const Index = () => {
                   Fix your biggest bottlenecks in days, not months
                 </div>
                 <p className="text-gray-600 mb-6">
-                  Whether you're a team of 1 or growing toward 12, whether you're drowning in daily operations or ready to step back as CEO. We'll also introduce AI tools that simplify your day-to-day—and show you how to manage them yourself, no tech background required. This intensive experience will identify and eliminate your biggest operational roadblocks.
+                  Whether you're a team of one or scaling toward twelve, this intensive is built to meet you where you are—whether you're buried in day-to-day tasks or preparing to step back into your CEO role. We'll identify and eliminate your biggest operational roadblocks, fast. Plus, you'll get hands-on guidance with AI tools that simplify your workflow—and learn how to manage them confidently, no tech background needed.
                 </p>
                 <div className="bg-blue-50 text-indigo-700 p-4 rounded-lg font-medium">
                   This is the place to start. The most common response we get is "where was this when I started? It would have saved me soooo much time and soooo much money."
