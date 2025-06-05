@@ -1,4 +1,5 @@
 
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -308,6 +309,15 @@ const Index = () => {
         </div>
       </section>
 
+      {/* New Section - Team Size */}
+      <section className="bg-white py-16">
+        <div className="container mx-auto px-6 text-center">
+          <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto font-medium">
+            Poquillo is built for growing teams of 1 to 12 employees—because that's where the chaos hits hardest and smart systems matter most.
+          </p>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section id="apply" className="bg-gradient-to-br from-gray-900 to-gray-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
@@ -344,3 +354,4 @@ const Index = () => {
 };
 
 export default Index;
+
