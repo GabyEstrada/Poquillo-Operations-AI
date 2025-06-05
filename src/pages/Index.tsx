@@ -1,3 +1,4 @@
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -265,25 +266,30 @@ const Index = () => {
           <h2 className="text-3xl md:text-5xl font-black text-center mb-16" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             How It Works
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
             {[
               {
                 number: "1",
-                title: "Schedule a Chat",
-                description: "Fill out a simple form and book a time to discuss your specific situation and goals"
+                title: "Fill Out Our Form",
+                description: "Complete our application form to be considered for our exclusive programs and partnerships"
               },
               {
                 number: "2",
-                title: "Deep Dive Consultation",
-                description: "Invest $3,000 in our 90-minute consultation to analyze your business and create your custom roadmap"
+                title: "Schedule Your Consultation",
+                description: "If approved, book your $3,000 consultation to analyze your business and create your custom roadmap"
               },
               {
                 number: "3",
+                title: "Deep Dive Analysis",
+                description: "We'll spend 90 minutes diving deep into your operations to identify bottlenecks and opportunities"
+              },
+              {
+                number: "4",
                 title: "Choose Your Path",
                 description: "Select from The Breakthrough, The Partnership, or ongoing Community support based on your needs"
               },
               {
-                number: "4",
+                number: "5",
                 title: "Transform & Scale",
                 description: "Follow our proven FLOW Method™ with expert guidance to eliminate chaos and reclaim your time"
               }
