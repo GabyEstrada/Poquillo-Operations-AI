@@ -113,7 +113,7 @@ const Index = () => {
                 items: [
                   "Document core processes",
                   "Implement the right technology",
-                  "Equip your team with practical skills in operations and AI",
+                  "Equip your team with practical skills (operations + AI)",
                   "Ensure adoption across organization"
                 ]
               },
