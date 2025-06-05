@@ -1,5 +1,4 @@
-
-import { ArrowRight, Flame, TrendingUp, Dizzy, CheckCircle } from 'lucide-react';
+import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -77,7 +76,7 @@ const Index = () => {
             </Card>
             <Card className="text-center p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-0">
-                <Dizzy className="w-12 h-12 mx-auto mb-5 text-orange-500" />
+                <AlertCircle className="w-12 h-12 mx-auto mb-5 text-orange-500" />
                 <h3 className="text-xl font-bold mb-4">Drowning in Details</h3>
                 <p className="text-gray-600">
                   You started this business for freedom, but now you're trapped. Every vacation gets interrupted, every weekend has "quick" work tasks.
