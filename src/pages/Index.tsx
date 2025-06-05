@@ -271,22 +271,22 @@ const Index = () => {
               {
                 number: "1",
                 title: "Schedule a Chat",
-                description: "Fill out a simple form and book a time to discuss your specific situation"
+                description: "Fill out a simple form and book a time to discuss your specific situation and goals"
               },
               {
                 number: "2",
-                title: "Consultation",
-                description: "Invest $3,000 in a deep-dive consultation to find your perfect solution"
+                title: "Deep Dive Consultation",
+                description: "Invest $3,000 in our 90-minute consultation to analyze your business and create your custom roadmap"
               },
               {
                 number: "3",
-                title: "Get Guidance",
-                description: "Receive expert guidance and support every step of the way as you implement"
+                title: "Choose Your Path",
+                description: "Select from The Breakthrough, The Partnership, or ongoing Community support based on your needs"
               },
               {
                 number: "4",
-                title: "Transform",
-                description: "Follow our proven FLOW Method™ with ongoing support to eliminate chaos"
+                title: "Transform & Scale",
+                description: "Follow our proven FLOW Method™ with expert guidance to eliminate chaos and reclaim your time"
               }
             ].map((step, index) => (
               <Card key={index} className="text-center p-6 hover:shadow-lg transition-shadow duration-300">
