@@ -1,3 +1,4 @@
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -94,7 +95,7 @@ const Index = () => {
             The FLOW Method™
           </h2>
           <div className="text-lg md:text-xl text-center text-gray-600 mb-16 max-w-4xl mx-auto">
-            Our proven methodology to transform your business from chaos to seamless flow—regardless of which package you choose
+            Our proven methodology to transform your business from chaos to seamless flow
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -275,7 +276,7 @@ const Index = () => {
               {
                 number: "2",
                 title: "Deep Dive Consultation",
-                description: "If approved, book your $3,000 consultation—120 minutes focused on uncovering bottlenecks and opportunities in your operations. Get clarity, relief, and a clear plan of action."
+                description: "If approved, book your $3,000 consultation. Get clarity, relief, and a clear plan of action."
               },
               {
                 number: "3",
