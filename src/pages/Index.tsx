@@ -39,7 +39,7 @@ const Index = () => {
             We help overwhelmed business owners fix what's not working behind the scenes
           </div>
           <div className="text-lg md:text-xl mb-10 opacity-80 max-w-2xl mx-auto">
-            Transform operational chaos into seamless systems in 90 days—without expensive consultants or complicated software
+            Transform operational chaos into seamless, AI-supported systems in 90 days—without expensive consultants or complicated software. Learn to use the tools yourself, with our guidance—designed specifically for small businesses with 1–12 employees.
           </div>
           <Button 
             onClick={() => scrollToSection('apply')}
