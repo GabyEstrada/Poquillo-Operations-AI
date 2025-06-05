@@ -162,26 +162,26 @@ const Index = () => {
       </section>
 
       {/* Programs Section */}
-      <section className="bg-gray-50 py-20">
+      <section className="bg-gray-50 py-24">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl md:text-5xl font-black text-center mb-16" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+          <h2 className="text-3xl md:text-5xl font-black text-center mb-20" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             Our Programs
           </h2>
           
-          <div className="max-w-3xl mx-auto space-y-8">
+          <div className="max-w-4xl mx-auto space-y-12">
             {/* The Deep Dive card */}
-            <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-indigo-200">
-              <CardHeader className="p-0 pb-6">
-                <CardTitle className="text-2xl font-bold mb-4">The Deep Dive</CardTitle>
-                <div className="text-lg font-semibold text-indigo-600 mb-4">
+            <Card className="p-10 shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-indigo-200 bg-white">
+              <CardHeader className="p-0 pb-8">
+                <CardTitle className="text-3xl font-bold mb-6 text-gray-900">The Deep Dive</CardTitle>
+                <div className="text-xl font-semibold text-indigo-600 mb-6">
                   The starting point for your transformation
                 </div>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-600 mb-8 text-lg leading-relaxed">
                   Invest in a comprehensive 120-minute consultation rooted in our FLOW Method™ where we'll analyze your business, identify your biggest bottlenecks, and create a roadmap for your specific situation. This is where everything begins.
                 </p>
-                <div className="text-3xl font-bold text-green-600 mb-4">
+                <div className="text-4xl font-bold text-green-600 mb-6">
                   $3,000
-                  <span className="text-lg font-normal text-gray-600 ml-2">
+                  <span className="text-xl font-normal text-gray-600 ml-3">
                     (120-minute session)
                   </span>
                 </div>
@@ -189,7 +189,7 @@ const Index = () => {
               <CardContent className="p-0">
                 <Button 
                   onClick={() => scrollToSection('apply')}
-                  className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 hover:-translate-y-1"
+                  className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-4 text-lg rounded-lg transition-all duration-300 hover:-translate-y-1"
                 >
                   Schedule Your Consultation
                 </Button>
@@ -197,23 +197,23 @@ const Index = () => {
             </Card>
 
             {/* The Breakthrough card */}
-            <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <CardHeader className="p-0 pb-6">
-                <CardTitle className="text-2xl font-bold mb-4">The Breakthrough</CardTitle>
-                <div className="text-lg font-semibold text-indigo-600 mb-4">
+            <Card className="p-10 shadow-lg hover:shadow-xl transition-shadow duration-300 bg-white">
+              <CardHeader className="p-0 pb-8">
+                <CardTitle className="text-3xl font-bold mb-6 text-gray-900">The Breakthrough</CardTitle>
+                <div className="text-xl font-semibold text-indigo-600 mb-6">
                   Fix your biggest bottlenecks in days, not months
                 </div>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-600 mb-8 text-lg leading-relaxed">
                   Whether you're a team of one or scaling toward twelve, this intensive is built to meet you where you are—whether you're buried in day-to-day tasks or preparing to step back into your CEO role. We'll identify and eliminate your biggest operational roadblocks, fast. Plus, you'll get hands-on guidance with AI tools that simplify your workflow—and learn how to manage them confidently, no tech background needed.
                 </p>
-                <div className="bg-blue-50 text-indigo-700 p-4 rounded-lg font-medium">
+                <div className="bg-blue-50 text-indigo-700 p-6 rounded-lg font-medium text-lg border-l-4 border-indigo-300">
                   This is the place to start. The most common response we get is "where was this when I started? It would have saved me soooo much time and soooo much money."
                 </div>
               </CardHeader>
               <CardContent className="p-0">
                 <Button 
                   onClick={() => scrollToSection('apply')}
-                  className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 hover:-translate-y-1"
+                  className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-4 text-lg rounded-lg transition-all duration-300 hover:-translate-y-1"
                 >
                   Let's talk goals
                 </Button>
@@ -221,23 +221,23 @@ const Index = () => {
             </Card>
 
             {/* The Partnership card */}
-            <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <CardHeader className="p-0 pb-6">
-                <CardTitle className="text-2xl font-bold mb-4">The Partnership</CardTitle>
-                <div className="text-lg font-semibold text-indigo-600 mb-4">
+            <Card className="p-10 shadow-lg hover:shadow-xl transition-shadow duration-300 bg-white">
+              <CardHeader className="p-0 pb-8">
+                <CardTitle className="text-3xl font-bold mb-6 text-gray-900">The Partnership</CardTitle>
+                <div className="text-xl font-semibold text-indigo-600 mb-6">
                   Want dedicated guidance every step of the way?
                 </div>
-                <p className="text-gray-600 mb-6">
-                  In The Partnership, you get expert guidance to implement everything we discover in The Deep Dive and full access to everything included in The Breakthrough. We'll be there every step of the way as you transform your operations, integrate smart AI solutions, and gain the confidence to run your systems independently—even with a lean team.
+                <p className="text-gray-600 mb-8 text-lg leading-relaxed">
+                  In The Partnership, you get expert guidance to implement everything we uncover in The Deep Dive and full access to everything included in The Breakthrough. We'll be there every step of the way as you transform your operations, integrate smart AI solutions, and gain the confidence to run your systems independently—even with a lean team.
                 </p>
-                <div className="bg-blue-50 text-indigo-700 p-4 rounded-lg font-medium">
+                <div className="bg-blue-50 text-indigo-700 p-6 rounded-lg font-medium text-lg border-l-4 border-indigo-300">
                   You get The Breakthrough included AND ongoing support to ensure everything actually gets implemented and works.
                 </div>
               </CardHeader>
               <CardContent className="p-0">
                 <Button 
                   onClick={() => scrollToSection('apply')}
-                  className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 hover:-translate-y-1"
+                  className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-4 text-lg rounded-lg transition-all duration-300 hover:-translate-y-1"
                 >
                   Let's talk goals
                 </Button>
@@ -245,19 +245,19 @@ const Index = () => {
             </Card>
 
             {/* The Community card */}
-            <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+            <Card className="p-10 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center bg-white">
               <CardContent className="p-0">
-                <h3 className="text-2xl font-bold mb-4">The Community</h3>
-                <p className="text-lg text-gray-600 mb-6">
+                <h3 className="text-3xl font-bold mb-6 text-gray-900">The Community</h3>
+                <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Stay connected and keep growing with monthly group calls, community access, and continued support.
                 </p>
-                <div className="text-3xl font-bold text-indigo-600 mb-2">
+                <div className="text-4xl font-bold text-indigo-600 mb-4">
                   $3,000
-                  <span className="text-lg font-normal text-gray-600 ml-2">
+                  <span className="text-xl font-normal text-gray-600 ml-3">
                     (3-month program)
                   </span>
                 </div>
-                <p className="text-sm text-gray-500 italic">
+                <p className="text-lg text-gray-500 italic">
                   Available after completing your transformation program
                 </p>
               </CardContent>
@@ -354,3 +354,4 @@ const Index = () => {
 };
 
 export default Index;
+
