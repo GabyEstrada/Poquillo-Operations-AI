@@ -1,4 +1,5 @@
 
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -95,7 +96,7 @@ const Index = () => {
             The FLOW Method™
           </h2>
           <div className="text-lg md:text-xl text-center text-gray-600 mb-16 max-w-4xl mx-auto">
-            Our proven methodology to transform your business from chaos to seamless flow
+            Our proven methodology to transform your business from chaos to seamless flow.
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -330,3 +331,4 @@ const Index = () => {
 };
 
 export default Index;
+
