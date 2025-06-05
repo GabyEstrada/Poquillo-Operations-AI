@@ -1,5 +1,3 @@
-
-
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -24,7 +22,7 @@ const Index = () => {
             onClick={() => scrollToSection('apply')}
             className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:-translate-y-1"
           >
-            Let's Talk Goals
+            Request to Work Together
           </Button>
         </nav>
       </header>
@@ -45,7 +43,7 @@ const Index = () => {
             onClick={() => scrollToSection('apply')}
             className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2"
           >
-            Let's Talk Goals
+            Request to Work Together
             <ArrowRight className="w-5 h-5" />
           </Button>
         </div>
@@ -115,7 +113,7 @@ const Index = () => {
                 items: [
                   "Document core processes",
                   "Implement the right technology",
-                  "Train your team effectively",
+                  "Equip your team with practical skills in operations and AI",
                   "Ensure adoption across organization"
                 ]
               },
@@ -331,4 +329,3 @@ const Index = () => {
 };
 
 export default Index;
-
