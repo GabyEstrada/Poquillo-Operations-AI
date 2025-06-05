@@ -1,3 +1,4 @@
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -166,6 +167,32 @@ const Index = () => {
           </h2>
           
           <div className="max-w-3xl mx-auto space-y-8">
+            <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-indigo-200">
+              <CardHeader className="p-0 pb-6">
+                <CardTitle className="text-2xl font-bold mb-4">90-Minute Deep Dive Consultation</CardTitle>
+                <div className="text-lg font-semibold text-indigo-600 mb-4">
+                  The starting point for your transformation
+                </div>
+                <p className="text-gray-600 mb-6">
+                  Invest in a comprehensive consultation where we'll analyze your business, identify your biggest bottlenecks, and create a roadmap for your specific situation. This is where everything begins.
+                </p>
+                <div className="text-3xl font-bold text-green-600 mb-4">
+                  $3,000
+                  <span className="text-lg font-normal text-gray-600 ml-2">
+                    (90-minute session)
+                  </span>
+                </div>
+              </CardHeader>
+              <CardContent className="p-0">
+                <Button 
+                  onClick={() => scrollToSection('apply')}
+                  className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 hover:-translate-y-1"
+                >
+                  Schedule Your Consultation
+                </Button>
+              </CardContent>
+            </Card>
+
             <Card className="p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardHeader className="p-0 pb-6">
                 <CardTitle className="text-2xl font-bold mb-4">The Breakthrough</CardTitle>
