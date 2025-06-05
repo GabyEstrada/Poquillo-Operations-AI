@@ -28,9 +28,9 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-indigo-500 to-purple-600 text-white pt-24 pb-20">
+      <section className="bg-gradient-to-br from-indigo-500 to-purple-600 text-white pt-32 pb-24">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+          <h1 className="text-4xl md:text-6xl font-black mb-8 leading-tight" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             Scale Without the Chaos
           </h1>
           <div className="text-xl md:text-2xl mb-4 opacity-90 font-medium">
