@@ -10,7 +10,7 @@ const TermsConditions = () => {
       <header className="bg-white shadow-lg">
         <nav className="container mx-auto px-6 py-5 flex justify-between items-center">
           <Link to="/" className="text-3xl font-black text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            Poquillo
+            Poquillo™
           </Link>
           <Link to="/">
             <Button variant="outline" className="inline-flex items-center gap-2">

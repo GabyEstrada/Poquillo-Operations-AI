@@ -1,3 +1,4 @@
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -17,7 +18,7 @@ const Index = () => {
       <header className="fixed top-0 w-full bg-white shadow-lg z-50">
         <nav className="container mx-auto px-6 py-5 flex justify-between items-center">
           <div className="text-3xl font-black text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            Poquillo
+            Poquillo™
           </div>
           <Button 
             onClick={() => scrollToSection('apply')}
@@ -322,7 +323,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-10">
         <div className="container mx-auto px-6 text-center">
-          <p className="mb-4">&copy; 2025 Poquillo. All rights reserved.</p>
+          <p className="mb-4">&copy; 2025 Poquillo™. All rights reserved.</p>
           <div className="text-sm space-x-4">
             <Link to="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">
               Privacy Policy
