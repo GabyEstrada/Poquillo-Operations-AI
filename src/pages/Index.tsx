@@ -1,4 +1,5 @@
 
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -276,7 +277,7 @@ const Index = () => {
               {
                 number: "1",
                 title: "Fill Out Our Form",
-                description: "Complete our application form to be considered for our exclusive programs and partnerships"
+                description: "Complete our application form to be considered for our exclusive programs and partnerships."
               },
               {
                 number: "2",
@@ -286,12 +287,12 @@ const Index = () => {
               {
                 number: "3",
                 title: "Choose Your Path",
-                description: "Select from The Breakthrough, The Partnership, or ongoing Community support based on your needs"
+                description: "Select from The Breakthrough, The Partnership, or ongoing Community support based on your needs."
               },
               {
                 number: "4",
                 title: "Transform & Scale",
-                description: "Follow our proven FLOW Method™ with expert guidance to eliminate chaos and reclaim your time"
+                description: "Follow our proven FLOW Method™ with expert guidance to eliminate chaos and reclaim your time."
               }
             ].map((step, index) => (
               <Card key={index} className="text-center p-6 hover:shadow-lg transition-shadow duration-300">
