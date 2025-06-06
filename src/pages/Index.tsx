@@ -1,3 +1,4 @@
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -42,7 +43,7 @@ const Index = () => {
             We help overwhelmed business owners fix what's not working behind the scenes
           </div>
           <div className="text-lg md:text-xl mb-10 opacity-80 max-w-2xl mx-auto">
-            Transform operational chaos into seamless systems in 90 days—without expensive consultants or complicated software.
+            Transform operational chaos into seamless systems in 6 months or less—without expensive consultants or complicated software.
           </div>
           <Button 
             onClick={handleCTAClick}
