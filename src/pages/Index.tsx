@@ -1,4 +1,3 @@
-
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -39,22 +38,19 @@ const Index = () => {
           <h1 className="text-4xl md:text-6xl font-black mb-12 leading-tight" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             Scale Without the Chaos
           </h1>
-          <div className="text-xl md:text-2xl mb-4 opacity-90 font-medium">
-            We help overwhelmed business owners fix what's not working behind the scenes
-          </div>
-          <div className="text-lg md:text-xl mb-4 opacity-80 max-w-2xl mx-auto">
-            Eliminate chaos, reclaim 15+ hours a week, and scale with confidence.
-          </div>
-          <div className="text-sm md:text-base mb-10 opacity-70 max-w-2xl mx-auto italic">
-            *Most clients see real results in 90 days or less, even if the full transformation takes longer. 😉
+          <div className="text-xl md:text-2xl mb-8 opacity-90 font-medium max-w-3xl mx-auto">
+            We help overwhelmed business owners eliminate chaos, reclaim 15+ hours a week, and scale with confidence.
           </div>
           <Button 
             onClick={handleCTAClick}
-            className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2"
+            className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2 mb-6"
           >
             Request to Work Together
             <ArrowRight className="w-5 h-5" />
           </Button>
+          <div className="text-sm opacity-60 italic">
+            *Most clients see real results in 90 days or less 😉
+          </div>
         </div>
       </section>
 
