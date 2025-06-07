@@ -42,8 +42,11 @@ const Index = () => {
           <div className="text-xl md:text-2xl mb-4 opacity-90 font-medium">
             We help overwhelmed business owners fix what's not working behind the scenes
           </div>
-          <div className="text-lg md:text-xl mb-10 opacity-80 max-w-2xl mx-auto">
-            Transform operational chaos into seamless systems in 6 months or less—without expensive consultants or complicated software.
+          <div className="text-lg md:text-xl mb-4 opacity-80 max-w-2xl mx-auto">
+            Eliminate chaos, reclaim 15+ hours a week, and scale with confidence.
+          </div>
+          <div className="text-sm md:text-base mb-10 opacity-70 max-w-2xl mx-auto italic">
+            *Most clients see real results in 90 days or less, even if the full transformation takes longer. 😉
           </div>
           <Button 
             onClick={handleCTAClick}
