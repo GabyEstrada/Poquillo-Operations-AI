@@ -181,12 +181,6 @@ const Index = () => {
                 <p className="text-gray-600 mb-8 text-lg leading-relaxed">
                   Invest in a comprehensive 120-minute consultation rooted in our FLOW Method™ where we'll analyze your business, identify your biggest bottlenecks, and create a roadmap for your specific situation. This is where everything begins.
                 </p>
-                <div className="text-4xl font-bold text-green-600 mb-6">
-                  $3,000
-                  <span className="text-xl font-normal text-gray-600 ml-3">
-                    (120-minute session)
-                  </span>
-                </div>
               </CardHeader>
               <CardContent className="p-0">
                 <Button 
@@ -253,12 +247,6 @@ const Index = () => {
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Stay connected and keep growing with monthly group calls, community access, and continued support.
                 </p>
-                <div className="text-4xl font-bold text-indigo-600 mb-4">
-                  $3,000
-                  <span className="text-xl font-normal text-gray-600 ml-3">
-                    (3-month program)
-                  </span>
-                </div>
                 <p className="text-lg text-gray-500 italic">
                   Available after completing your transformation program
                 </p>
