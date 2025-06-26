@@ -1,3 +1,4 @@
+
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle, Heart, Users, Stethoscope, Brain } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -241,7 +242,7 @@ const Index = () => {
                   The starting point for your transformation
                 </div>
                 <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-                  Invest in a comprehensive 120-minute consultation rooted in our FLOW Method™ where we'll analyze your business, identify your biggest bottlenecks, and create a roadmap for your specific situation. This is where everything begins.
+                  A comprehensive 120-minute consultation rooted in our FLOW Method™ where we'll analyze your business, identify your biggest bottlenecks, and create a roadmap for your specific situation. This is where everything begins.
                 </p>
               </CardHeader>
               <CardContent className="p-0">
