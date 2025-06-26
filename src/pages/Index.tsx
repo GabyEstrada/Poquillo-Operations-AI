@@ -335,7 +335,7 @@ const Index = () => {
               {
                 number: "2",
                 title: "Deep Dive Consultation",
-                description: "If approved, book your $3,000 consultation. Get clarity, relief, and a clear plan of action."
+                description: "If approved, book your consultation. Get clarity, relief, and a clear plan of action."
               },
               {
                 number: "3",
