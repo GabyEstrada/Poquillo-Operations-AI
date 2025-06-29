@@ -242,7 +242,7 @@ const Index = () => {
                   30 minutes • FREE • Your starting point
                 </div>
                 <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-                  A focused qualification and fit assessment where we'll discover your high-level pain points and determine if our Deep Dive would be valuable for your specific situation. This is designed as a low barrier to entry for busy practice owners.
+                  We'll quickly assess where you are, where you want to go, and create a clear plan for how you can work ON your business, not just IN it. Perfect for founders who want to stop working 60+ hour weeks just to keep up and are serious about moving forward with their business goals. You'll leave with clarity on your next steps—whether that's with us or on your own!
                 </p>
               </CardHeader>
               <CardContent className="p-0">
