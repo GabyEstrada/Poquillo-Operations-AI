@@ -1,4 +1,3 @@
-
 import { ArrowRight, Flame, TrendingUp, AlertCircle, CheckCircle, Heart, Users, Stethoscope, Brain } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -40,7 +39,7 @@ const Index = () => {
             Scale Without the Chaos
           </h1>
           <div className="text-xl md:text-2xl mb-8 opacity-90 font-medium max-w-3xl mx-auto">
-            We help overwhelmed business owners eliminate chaos, reclaim 15+ hours a week, and scale with confidence.
+            We help overwhelmed business owners eliminate chaos, work ON their business not IN it, and scale with confidence.
           </div>
           <Button 
             onClick={handleCTAClick}
