@@ -134,7 +134,7 @@ const Index = () => {
               {
                 title: "Win Back Time",
                 items: [
-                  "Reclaim 10-15+ hours weekly",
+                  "Stop working 60+ hour weeks just to keep up",
                   "Step back from daily operations",
                   "Focus on growth and strategy",
                   "Enjoy the freedom you started for"
