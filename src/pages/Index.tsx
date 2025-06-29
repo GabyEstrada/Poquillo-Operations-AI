@@ -28,7 +28,7 @@ const Index = () => {
             onClick={handleCTAClick}
             className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:-translate-y-1"
           >
-            Request to Work Together
+            Book Your Strategy Session
           </Button>
         </nav>
       </header>
@@ -46,7 +46,7 @@ const Index = () => {
             onClick={handleCTAClick}
             className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2 mb-6"
           >
-            Request to Work Together
+            Book Your Strategy Session
             <ArrowRight className="w-5 h-5" />
           </Button>
           <div className="text-sm opacity-60 italic">
@@ -234,15 +234,15 @@ const Index = () => {
           </h2>
           
           <div className="max-w-4xl mx-auto space-y-16">
-            {/* The Deep Dive card */}
-            <Card className="p-10 shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-indigo-200 bg-white">
+            {/* Strategy Session card */}
+            <Card className="p-10 shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-green-200 bg-white">
               <CardHeader className="p-0 pb-8">
-                <CardTitle className="text-3xl font-bold mb-6 text-gray-900">The Deep Dive</CardTitle>
-                <div className="text-xl font-semibold text-indigo-600 mb-6">
-                  The starting point for your transformation
+                <CardTitle className="text-3xl font-bold mb-6 text-gray-900">Strategy Session</CardTitle>
+                <div className="text-xl font-semibold text-green-600 mb-6">
+                  30 minutes • FREE • Your starting point
                 </div>
                 <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-                  A comprehensive 120-minute consultation rooted in our FLOW Method™ where we'll analyze your business, identify your biggest bottlenecks, and create a roadmap for your specific situation. This is where everything begins.
+                  A focused qualification and fit assessment where we'll discover your high-level pain points and determine if our Deep Dive would be valuable for your specific situation. This is designed as a low barrier to entry for busy practice owners.
                 </p>
               </CardHeader>
               <CardContent className="p-0">
@@ -250,7 +250,28 @@ const Index = () => {
                   onClick={handleCTAClick}
                   className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-4 text-lg rounded-lg transition-all duration-300 hover:-translate-y-1"
                 >
-                  Schedule Your Consultation
+                  Book Your Strategy Session
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* The Deep Dive card */}
+            <Card className="p-10 shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-indigo-200 bg-white">
+              <CardHeader className="p-0 pb-8">
+                <CardTitle className="text-3xl font-bold mb-6 text-gray-900">The Deep Dive</CardTitle>
+                <div className="text-xl font-semibold text-indigo-600 mb-6">
+                  60 minutes • FREE • Comprehensive business audit
+                </div>
+                <p className="text-gray-600 mb-8 text-lg leading-relaxed">
+                  A comprehensive business audit and custom roadmap where we'll analyze your current bottlenecks and systems gaps, assess your team capacity and growth readiness, and create a prioritized action plan. You'll receive immediate value with a written assessment and roadmap.
+                </p>
+              </CardHeader>
+              <CardContent className="p-0">
+                <Button 
+                  onClick={handleCTAClick}
+                  className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-4 text-lg rounded-lg transition-all duration-300 hover:-translate-y-1"
+                >
+                  Book Your Strategy Session
                 </Button>
               </CardContent>
             </Card>
@@ -274,7 +295,7 @@ const Index = () => {
                   onClick={handleCTAClick}
                   className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-4 text-lg rounded-lg transition-all duration-300 hover:-translate-y-1"
                 >
-                  Let's talk goals
+                  Book Your Strategy Session
                 </Button>
               </CardContent>
             </Card>
@@ -298,7 +319,7 @@ const Index = () => {
                   onClick={handleCTAClick}
                   className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-4 text-lg rounded-lg transition-all duration-300 hover:-translate-y-1"
                 >
-                  Let's talk goals
+                  Book Your Strategy Session
                 </Button>
               </CardContent>
             </Card>
@@ -329,18 +350,18 @@ const Index = () => {
             {[
               {
                 number: "1",
-                title: "Fill Out Our Form",
-                description: "Complete our application form to be considered for our exclusive programs and partnerships."
+                title: "Strategy Session",
+                description: "Book your free 30-minute session to assess fit and discover your high-level pain points."
               },
               {
                 number: "2",
-                title: "Deep Dive Consultation",
-                description: "If approved, book your consultation. Get clarity, relief, and a clear plan of action."
+                title: "Deep Dive",
+                description: "If approved, complete your comprehensive 60-minute business audit and receive your custom roadmap."
               },
               {
                 number: "3",
                 title: "Choose Your Path",
-                description: "Select from The Breakthrough, The Partnership, or ongoing Community support based on your needs."
+                description: "Based on Deep Dive results, select from The Breakthrough, The Partnership, or ongoing Community support."
               },
               {
                 number: "4",
@@ -378,13 +399,13 @@ const Index = () => {
             Ready to Scale Without the Chaos?
           </h2>
           <p className="text-xl mb-10 opacity-90">
-            Apply to work with us and transform your business
+            Book your free Strategy Session and start your transformation
           </p>
           <Button 
             onClick={handleCTAClick}
             className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2"
           >
-            Request to Work Together
+            Book Your Strategy Session
             <ArrowRight className="w-5 h-5" />
           </Button>
         </div>
