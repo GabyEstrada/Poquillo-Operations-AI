@@ -13,7 +13,7 @@ const Index = () => {
   };
 
   const handleCTAClick = () => {
-    window.open('https://forms.gle/bTDzxaxuSKKtV3EM9', '_blank');
+    window.open('https://app.reclaim.ai/m/gaby-estrada/poquillo-bgss', '_blank');
   };
 
   return (
@@ -355,7 +355,7 @@ const Index = () => {
               },
               {
                 number: "2",
-                title: "Deep Dive",
+                title: "The Deep Dive",
                 description: "If approved, complete your comprehensive 60-minute business audit and receive your custom roadmap."
               },
               {
