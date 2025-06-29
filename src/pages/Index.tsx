@@ -260,7 +260,7 @@ const Index = () => {
               <CardHeader className="p-0 pb-8">
                 <CardTitle className="text-3xl font-bold mb-6 text-gray-900">The Deep Dive</CardTitle>
                 <div className="text-xl font-semibold text-indigo-600 mb-6">
-                  60 minutes • FREE • Comprehensive business audit
+                  60 minutes • Comprehensive business audit
                 </div>
                 <p className="text-gray-600 mb-8 text-lg leading-relaxed">
                   A comprehensive business audit and custom roadmap where we'll analyze your current bottlenecks and systems gaps, assess your team capacity and growth readiness, and create a prioritized action plan. You'll receive immediate value with a written assessment and roadmap.
