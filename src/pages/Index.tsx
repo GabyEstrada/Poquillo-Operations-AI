@@ -15,6 +15,11 @@ const Index = () => {
     window.open('https://app.reclaim.ai/m/gaby-estrada/poquillo-bgss', '_blank');
   };
 
+  const handleQuizClick = () => {
+    // TODO: Add quiz link when available
+    console.log('Quiz button clicked');
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -41,13 +46,22 @@ const Index = () => {
           <div className="text-xl md:text-2xl mb-8 opacity-90 font-medium max-w-3xl mx-auto">
             We help overwhelmed business owners eliminate chaos, work ON their business not IN it, and scale with confidence.
           </div>
-          <Button 
-            onClick={handleCTAClick}
-            className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2 mb-6"
-          >
-            Book Your Strategy Session
-            <ArrowRight className="w-5 h-5" />
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+            <Button 
+              onClick={handleCTAClick}
+              className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 text-lg font-bold rounded-lg transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2"
+            >
+              Book Your Strategy Session
+              <ArrowRight className="w-5 h-5" />
+            </Button>
+            <Button 
+              onClick={handleQuizClick}
+              variant="outline"
+              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 hover:-translate-y-1"
+            >
+              Take the 60-Second Operations Quiz
+            </Button>
+          </div>
           <div className="text-sm opacity-60 italic">
             *Most clients see real results in 90 days or less 😉
           </div>
