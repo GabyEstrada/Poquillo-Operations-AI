@@ -16,8 +16,7 @@ const Index = () => {
   };
 
   const handleQuizClick = () => {
-    // TODO: Add quiz link when available
-    console.log('Quiz button clicked');
+    window.open('https://gaby-bnwp5jkh.scoreapp.com', '_blank');
   };
 
   return (
