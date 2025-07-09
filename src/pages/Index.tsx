@@ -183,51 +183,9 @@ const Index = () => {
             Who is the FLOW Method™ For?
           </h2>
           <div className="text-lg md:text-xl text-center text-gray-600 mb-16 max-w-4xl mx-auto">
-            Health and wellness small businesses—especially those focused on movement, healing, and holistic care.
+            Health clinics, wellness clinics—especially those focused on movement, healing, and holistic care.
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-            <Card className="text-center p-6 hover:shadow-lg transition-shadow duration-300 bg-gradient-to-br from-blue-50 to-indigo-50 border-indigo-200">
-              <CardContent className="p-0">
-                <Stethoscope className="w-12 h-12 mx-auto mb-5 text-indigo-600" />
-                <h3 className="text-lg font-bold mb-3 text-gray-900">Movement & Manual Therapy</h3>
-                <p className="text-gray-600 text-sm">
-                  Chiropractors, physical therapists, Pilates instructors
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center p-6 hover:shadow-lg transition-shadow duration-300 bg-gradient-to-br from-green-50 to-emerald-50 border-emerald-200">
-              <CardContent className="p-0">
-                <Users className="w-12 h-12 mx-auto mb-5 text-emerald-600" />
-                <h3 className="text-lg font-bold mb-3 text-gray-900">Body-Based Coaching</h3>
-                <p className="text-gray-600 text-sm">
-                  Yoga therapists, corrective exercise specialists
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center p-6 hover:shadow-lg transition-shadow duration-300 bg-gradient-to-br from-purple-50 to-violet-50 border-violet-200">
-              <CardContent className="p-0">
-                <Heart className="w-12 h-12 mx-auto mb-5 text-violet-600" />
-                <h3 className="text-lg font-bold mb-3 text-gray-900">Holistic & Preventative Wellness</h3>
-                <p className="text-gray-600 text-sm">
-                  Naturopaths, nutritionists, health coaches
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center p-6 hover:shadow-lg transition-shadow duration-300 bg-gradient-to-br from-orange-50 to-amber-50 border-amber-200">
-              <CardContent className="p-0">
-                <Brain className="w-12 h-12 mx-auto mb-5 text-amber-600" />
-                <h3 className="text-lg font-bold mb-3 text-gray-900">Emotional & Nervous System Wellness</h3>
-                <p className="text-gray-600 text-sm">
-                  Somatic therapists, private practice counselors
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-
           <div className="text-center">
             <div className="bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-200 rounded-lg p-8 max-w-3xl mx-auto">
               <p className="text-lg md:text-xl text-gray-700 font-medium leading-relaxed">
