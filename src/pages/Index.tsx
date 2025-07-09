@@ -187,6 +187,22 @@ const Index = () => {
             Health clinics, wellness clinics—especially those focused on movement, healing, and holistic care.
           </div>
           
+          {/* Icons Section */}
+          <div className="flex justify-center items-center gap-8 mb-12">
+            <div className="flex flex-col items-center text-center">
+              <Stethoscope className="w-12 h-12 text-indigo-500 mb-3" />
+              <span className="text-sm font-medium text-gray-700">Health Clinics</span>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <Brain className="w-12 h-12 text-purple-500 mb-3" />
+              <span className="text-sm font-medium text-gray-700">Wellness Centers</span>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <Heart className="w-12 h-12 text-red-500 mb-3" />
+              <span className="text-sm font-medium text-gray-700">Heart-Led Practices</span>
+            </div>
+          </div>
+          
           <div className="text-center">
             <div className="bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-200 rounded-lg p-8 max-w-3xl mx-auto">
               <p className="text-lg md:text-xl text-gray-700 font-medium leading-relaxed">
