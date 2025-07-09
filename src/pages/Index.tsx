@@ -189,15 +189,15 @@ const Index = () => {
           
           {/* Icons Section */}
           <div className="flex justify-center items-center gap-8 mb-12">
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center text-center bg-white border-2 border-indigo-100 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
               <Stethoscope className="w-12 h-12 text-indigo-500 mb-3" />
               <span className="text-sm font-medium text-gray-700">Chiropractic Clinics</span>
             </div>
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center text-center bg-white border-2 border-purple-100 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
               <Brain className="w-12 h-12 text-purple-500 mb-3" />
               <span className="text-sm font-medium text-gray-700">Physical Therapy</span>
             </div>
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center text-center bg-white border-2 border-red-100 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
               <Heart className="w-12 h-12 text-red-500 mb-3" />
               <span className="text-sm font-medium text-gray-700">Sports Medicine</span>
             </div>
